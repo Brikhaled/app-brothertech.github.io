@@ -96,7 +96,7 @@ img.addEventListener("click", function(){
 var img = document.getElementById("6400");
 img.addEventListener("click", function(){
     // create the vCard
-    var vCard = "BEGIN:VCARD\nVERSION:3.0\nN:;Fares Belloni;;;\nFN:Khaledgb\nTEL;TYPE=CELL;VALUE=PREF:0658323500\nEND:VCARD";
+    var vCard = "BEGIN:VCARD\nVERSION:3.0\nN:;FaresBelloni;;;\nFN:FaresBelloni\nTEL;TYPE=CELL;VALUE=PREF:0658323500\nEND:VCARD";
 
     // create a link to download the vCard
     var link = document.createElement("a");
