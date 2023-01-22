@@ -78,18 +78,6 @@ var img = document.getElementById("6300");
 img.addEventListener("click", function(){
     window.open("tel:0658323500", "_blank");
 });
-function showVideo() {
-    var videoContainer = document.getElementById("video-container");
-    var video = document.createElement("video");
-    video.src = "https://pixabay.com/videos/download/video-90877_tiny.mp4";
-    video.autoplay = true;
-    video.loop = true;
-    videoContainer.appendChild(video);
-    videoContainer.style.display = "block";
-  
-    setTimeout(function() {
-      videoContainer.style.display = "none";
-    }, 5000);
-  }
+
   
   
