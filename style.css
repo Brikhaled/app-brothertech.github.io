@@ -1,0 +1,92 @@
+:root { 
+
+--red-color: #EBEBEB; 
+
+}
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+
+}
+header {
+    background: linear-gradient(180deg, #36D3F5 0%, rgba(228, 239, 241, 0) 69.79%);
+    border: 0px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    height: 1024px;
+    width: 1024pxpx;
+}
+
+.hero-section .right img {
+position: absolute;
+width: 310px;
+height: 646px;
+left: 42px;
+top: 103px;
+}
+nav {
+    position: absolute;
+    width: 49px;
+    height: 58px;
+    left: 24px;
+    top: 0px;
+    
+    font-family: 'Athiti';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 77px;
+    
+    color: #FFFFFF;
+    
+    border:
+    rgba(15, 236, 77, 1)  1px solid #0FEC4D;
+    
+}
+.img-1 .right img {
+position: absolute;
+width: 248px;
+height: 78px;
+left: 73px;
+top: 213px;
+}
+.img-2 .right img {
+    position: absolute;
+    width: 248px;
+    height: 78px;
+    left: 73px;
+    top: 281px;
+}
+.img-3 .right img {
+    position: absolute;
+    width: 248px;
+    height: 78px;
+    left: 73px;
+    top: 348px;
+}
+.img-4 .right img {
+    position: absolute;
+    width: 248px;
+    height: 78px;
+    left: 73px;
+    top: 426px;
+}
+.img-5 .right img {
+ position: absolute;
+width: 248px;
+height: 78px;
+left: 73px;
+top: 504px;    
+}
+#video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+  }
+  
