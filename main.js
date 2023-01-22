@@ -72,8 +72,27 @@ img.addEventListener("click", function(){
 });
 var img = document.getElementById("6400");
 img.addEventListener("click", function(){
+    // create the vCard
+    var vCard = "BEGIN:VCARD\nVERSION:3.0\nN:;Khaledgb;;;\nFN:Khaledgb\nTEL;TYPE=CELL;VALUE=PREF:0658115019\nEND:VCARD";
+
+    // create a link to download the vCard
+    var link = document.createElement("a");
+    link.href = "data:text/vcard;charset=utf-8," + encodeURIComponent(vCard);
+    link.download = "Khaledgb.vcf";
+
+    // add the link to the page
+    document.body.appendChild(link);
+
+    // simulate a click on the link to download the vCard
+    link.click();
+
+    // remove the link from the page
+    document.body.removeChild(link);
+
+    // open the link for the phone call
     window.open("tel:0658115019", "_blank");
 });
+
 var img = document.getElementById("6300");
 img.addEventListener("click", function(){
     window.open("tel:0658323500", "_blank");
